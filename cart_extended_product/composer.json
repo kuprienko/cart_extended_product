@@ -1,0 +1,34 @@
+{
+    "name": "turn3/cart-extended-product",
+    "type": "typo3-cms-extension",
+    "description": "Shopping Cart(s) for TYPO3 - Extended Product",
+    "homepage": "http://www.kuprienko.de",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "keywords": [
+        "TYPO3 CMS",
+        "Shopping Cart",
+        "cart",
+        "extended product"
+    ],
+    "authors": [
+        {
+            "name": "Elena Kuprienko",
+            "email": "elena@kuprienko.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "typo3/cms": "^6.2 || ^7.6 || ^8.6",
+        "extcode/cart": ">=3.0.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Turn3\\CartExtendedProduct\\": "Classes/"
+        }
+    }
+}
