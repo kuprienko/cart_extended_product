@@ -21,7 +21,7 @@ namespace Turn3\CartExtendedProduct\Utility;
  * @package cart_extended_product
  * @author Elena Kuprienko <elena@kuprienko.de>
  */
-class ProductUtility extends Extcode\Cart\Utility\ProductUtility
+class ProductUtility
 {
     /**
      * Change New Cart Product
