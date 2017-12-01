@@ -35,7 +35,7 @@ class ProductUtility
         $productProduct = $params['productProduct'];
         $cartProduct = $params['cartProduct'];
 
-        $cartProduct->setAdditional('abmessungen', $productProduct->getAbmessungen());
+        $cartProduct->setAbmessungen($productProduct->getAbmessungen());
 
         $params['cartProduct'] = $cartProduct;
 

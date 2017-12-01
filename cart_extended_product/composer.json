@@ -2,7 +2,7 @@
     "name": "turn3/cart-extended-product",
     "type": "typo3-cms-extension",
     "description": "Shopping Cart(s) for TYPO3 - Extended Product",
-    "homepage": "http://www.kuprienko.de",
+    "homepage": "https://github.com/kuprienko/cart_extended_product",
     "license": [
         "GPL-2.0+"
     ],
@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.4.0",
         "typo3/cms": "^6.2 || ^7.6 || ^8.6",
-        "extcode/cart": ">=3.0.1"
+        "extcode/cart": ">=4.5.0"
     },
     "require-dev": {
     },
